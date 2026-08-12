@@ -24,7 +24,7 @@ const environments = [
 ]
 
 function Logo({ small = false }: { small?: boolean }) {
-  return <span className={small ? 'logo-lockup logo-lockup-small' : 'logo-lockup'}><span><b>Daily<span>Flow</span></b>{!small && <small>FLOW. FOCUS. FINISH.</small>}</span></span>
+  return <span className={small ? 'logo-lockup logo-lockup-small' : 'logo-lockup'}><img src="/dailyflow-logo.jpeg" alt="" /><span><b>Daily<span>Flow</span></b>{!small && <small>FLOW. FOCUS. FINISH.</small>}</span></span>
 }
 
 function ScreenshotFrame({ src, alt, className = '' }: { src: string; alt: string; className?: string }) {

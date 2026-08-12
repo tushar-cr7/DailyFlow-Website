@@ -5,7 +5,7 @@ import './globals.css'
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3000'),
   title: 'DailyFlow — Flow. Focus. Finish.',
-  description: 'A focused desktop workspace for planning, focusing, finishing, and reflecting on your day.',
+  description: 'DailyFlow is a focused desktop productivity workspace for planning, focusing, finishing, and reflecting on your day.',
   generator: 'DailyFlow',
   icons: {
     icon: '/icon.svg',
@@ -13,14 +13,14 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'DailyFlow — Flow. Focus. Finish.',
-    description: 'A focused desktop workspace for planning, focusing, finishing, and reflecting on your day.',
+    description: 'DailyFlow is a focused desktop productivity workspace for planning, focusing, finishing, and reflecting on your day.',
     type: 'website',
     images: ['/icon.svg'],
   },
   twitter: {
     card: 'summary',
     title: 'DailyFlow — Flow. Focus. Finish.',
-    description: 'A focused desktop workspace for planning, focusing, finishing, and reflecting on your day.',
+    description: 'DailyFlow is a focused desktop productivity workspace for planning, focusing, finishing, and reflecting on your day.',
     images: ['/icon.svg'],
   },
 }
