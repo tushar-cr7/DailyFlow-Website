@@ -3,7 +3,7 @@
 import { ArrowDownRight, ArrowRight, Check, ChevronDown, Download, Menu, X } from 'lucide-react'
 import { useState } from 'react'
 
-const DOWNLOAD_URL = '#download'
+const DOWNLOAD_URL = 'https://github.com/tushar-cr7/DailyFlow/releases/download/v.1.0.0/DailyFlow.Setup.0.1.0.exe'
 const GITHUB_URL = 'https://github.com/tushar-cr7/DailyFlow'
 const VERSION = 'v1.0.0'
 
