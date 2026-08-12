@@ -3,9 +3,26 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'DailyFlow — Your day. In flow.',
-  description: 'DailyFlow is a calm, local-first desktop workspace for planning, focusing, and understanding your day.',
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3000'),
+  title: 'DailyFlow — Flow. Focus. Finish.',
+  description: 'A focused desktop workspace for planning, focusing, finishing, and reflecting on your day.',
   generator: 'DailyFlow',
+  icons: {
+    icon: '/icon.svg',
+    apple: '/apple-icon.png',
+  },
+  openGraph: {
+    title: 'DailyFlow — Flow. Focus. Finish.',
+    description: 'A focused desktop workspace for planning, focusing, finishing, and reflecting on your day.',
+    type: 'website',
+    images: ['/icon.svg'],
+  },
+  twitter: {
+    card: 'summary',
+    title: 'DailyFlow — Flow. Focus. Finish.',
+    description: 'A focused desktop workspace for planning, focusing, finishing, and reflecting on your day.',
+    images: ['/icon.svg'],
+  },
 }
 
 export const viewport: Viewport = {
