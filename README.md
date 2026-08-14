@@ -1,54 +1,42 @@
-# DailyFlow Website
+# ✦ DailyFlow — Official Website
 
-Official website for the [DailyFlow](https://github.com/tushar-cr7/DailyFlow) desktop productivity application.
+> **FLOW. FOCUS. FINISH.**
 
-## Preview
+The official product website for **DailyFlow** — a local-first Windows desktop workspace designed to help you plan your day, protect your focus, track your progress, and understand how you work.
 
-DailyFlow is a cinematic, focused desktop workspace for planning, focusing, finishing, and reflecting on the day. The site presents the real application screens, its PLAN / FOCUS / FINISH / REFLECT method, and five atmosphere environments.
+<p align="center">
+  <a href="https://dailyflow-planner.vercel.app/">
+    <strong>🌐 Visit DailyFlow</strong>
+  </a>
+  ·
+  <a href="https://github.com/tushar-cr7/DailyFlow">
+    GitHub
+  </a>
+  ·
+  <a href="https://github.com/tushar-cr7/DailyFlow/releases/tag/v.1.0.0">
+    Download Windows App
+  </a>
+</p>
 
-## Features
+---
 
-- Responsive product landing page
-- Authentic DailyFlow branding and application screenshots
-- Interactive environment showcase
-- Accessible mobile navigation and reduced-motion support
-- Centralized download and GitHub CTAs
-- SEO, Open Graph, and Twitter metadata
+## ◈ The Product
 
-## Tech stack
+DailyFlow is built around a simple idea:
 
-- Next.js 16
-- React 19
-- TypeScript
-- Tailwind CSS
-- Lucide React
-- Vercel Analytics
+> **Your productivity system should help you move through your day — not become another thing you have to manage.**
 
-## Local development
+The website translates that philosophy into a cinematic product experience rather than a conventional SaaS landing page.
 
-```bash
-pnpm install
-pnpm dev
-```
+It introduces the DailyFlow methodology:
 
-Open [http://localhost:3000](http://localhost:3000).
-
-## Production build
-
-```bash
-pnpm build
-pnpm start
-```
-
-## Deployment
-
-The site can be deployed to Vercel from this repository. Set `NEXT_PUBLIC_SITE_URL` to the deployed canonical URL when available.
-
-## Related repositories
-
-- Desktop application: [tushar-cr7/DailyFlow](https://github.com/tushar-cr7/DailyFlow)
-- Website repository: [tushar-cr7/DailyFlow-Website](https://github.com/tushar-cr7/DailyFlow-Website)
-
-## License
-
-See the repository configuration for the current license terms.
+```text
+        PLAN
+          ↓
+        FOCUS
+          ↓
+        FINISH
+          ↓
+       REFLECT
+          ↓
+      FLOW BETTER
